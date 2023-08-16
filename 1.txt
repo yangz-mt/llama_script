@@ -1,0 +1,972 @@
+0
+1
+my rank = 0 my size = 2
+musa
+my rank = 1 my size = 2
+musa
+[tensor([ 3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11., 12.], device='musa:1'), tensor([ 3.,  4.,  5.,  6.,  7.,  8.,  9., 10., 11., 12.], device='musa:1')]
+1 tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], device='musa:1')
+[tensor([ 1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10.], device='musa:0'), tensor([ 1.,  2.,  3.,  4.,  5.,  6.,  7.,  8.,  9., 10.], device='musa:0')]
+0 tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0.], device='musa:0')
+worker-1-4:10359:10359 [0] 0.011075 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10359:10359 [0] 0.038858 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10359:10359 [0] 0.045027 findInterfaces:106 NCCL TRACE Found interface bond1:10.11.3.4<0>
+worker-1-4:10359:10359 [0] 0.050237 findInterfaces:106 NCCL TRACE Found interface docker0:172.17.0.1<0>
+worker-1-4:10359:10359 [0] 0.056195 findInterfaces:106 NCCL TRACE Found interface lo:::1<0>
+worker-1-4:10359:10359 [0] 0.108732 findInterfaces:106 NCCL TRACE Found interface bond0:fe80::ba3f:d2ff:fe4c:20cc%bond0<0>
+worker-1-4:10359:10359 [0] 0.119612 findInterfaces:106 NCCL TRACE Found interface bond1:fe80::ba3f:d2ff:fe4c:20cd%bond1<0>
+worker-1-4:10359:10359 [0] 0.129775 findInterfaces:106 NCCL TRACE Found interface docker0:fe80::42:97ff:fe63:e4fd%docker0<0>
+worker-1-4:10359:10359 [0] 0.139471 findInterfaces:106 NCCL TRACE Found interface veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0>
+worker-1-4:10359:10359 [0] 0.149032 findInterfaces:106 NCCL TRACE Found interface vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10359:10359 [0] 0.479419 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10359:10359 [0] 0.502127 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10359:10359 [0] NCCL INFO Bootstrap : Using bond0:10.11.1.4<0>
+worker-1-4:10359:10359 [0] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+worker-1-4:10359:10359 [0] NCCL INFO Failed to open libibverbs.so[.1]
+worker-1-4:10359:10359 [0] 1.308092 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10359:10359 [0] 1.320132 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10359:10359 [0] 1.325562 findInterfaces:106 NCCL TRACE Found interface bond1:10.11.3.4<0>
+worker-1-4:10359:10359 [0] 1.330658 findInterfaces:106 NCCL TRACE Found interface docker0:172.17.0.1<0>
+worker-1-4:10359:10359 [0] 1.336072 findInterfaces:106 NCCL TRACE Found interface lo:::1<0>
+worker-1-4:10359:10359 [0] 1.350750 findInterfaces:106 NCCL TRACE Found interface bond0:fe80::ba3f:d2ff:fe4c:20cc%bond0<0>
+worker-1-4:10359:10359 [0] 1.360509 findInterfaces:106 NCCL TRACE Found interface bond1:fe80::ba3f:d2ff:fe4c:20cd%bond1<0>
+worker-1-4:10359:10359 [0] 1.369934 findInterfaces:106 NCCL TRACE Found interface docker0:fe80::42:97ff:fe63:e4fd%docker0<0>
+worker-1-4:10359:10359 [0] 1.379551 findInterfaces:106 NCCL TRACE Found interface veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0>
+worker-1-4:10359:10359 [0] 1.388601 findInterfaces:106 NCCL TRACE Found interface vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10359:10359 [0] 1.688310 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10359:10359 [0] 1.696643 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10359:10359 [0] 1.702122 findInterfaces:106 NCCL TRACE Found interface bond1:10.11.3.4<0>
+worker-1-4:10359:10359 [0] 1.708098 findInterfaces:106 NCCL TRACE Found interface docker0:172.17.0.1<0>
+worker-1-4:10359:10359 [0] 1.713047 findInterfaces:106 NCCL TRACE Found interface lo:::1<0>
+worker-1-4:10359:10359 [0] 1.724478 findInterfaces:106 NCCL TRACE Found interface bond0:fe80::ba3f:d2ff:fe4c:20cc%bond0<0>
+worker-1-4:10359:10359 [0] 1.733795 findInterfaces:106 NCCL TRACE Found interface bond1:fe80::ba3f:d2ff:fe4c:20cd%bond1<0>
+worker-1-4:10359:10359 [0] 1.742867 findInterfaces:106 NCCL TRACE Found interface docker0:fe80::42:97ff:fe63:e4fd%docker0<0>
+worker-1-4:10359:10359 [0] 1.765794 findInterfaces:106 NCCL TRACE Found interface veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0>
+worker-1-4:10359:10359 [0] 1.775343 findInterfaces:106 NCCL TRACE Found interface vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10359:10359 [0] NCCL INFO NET/Socket : Using [0]bond0:10.11.1.4<0> [1]bond1:10.11.3.4<0> [2]veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0> [3]vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10359:10359 [0] NCCL INFO Using network Socket
+worker-1-4:10359:10359 [0] 1.910878 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<37435>
+NCCL version 2.11.4+cuda
+worker-1-4:10359:10436 [0] 2.236016 bootstrapRoot:118 NCCL TRACE BEGIN
+worker-1-4:10359:10502 [0] 4.592434 commAlloc:304 NCCL TRACE comm 0x7fad500013e0 rank 0 nranks 2 cudaDev 0 busId 19000
+worker-1-4:10359:10502 [0] NCCL INFO init.cc:317 Cuda Host Alloc Size 4 pointer 0x4000000000
+worker-1-4:10359:10502 [0] NCCL INFO init.cc:321 Cuda Alloc Size 64 pointer 0x8021082000
+worker-1-4:10359:10502 [0] 12.375295 initTransportsRank:589 NCCL TRACE comm 0x7fad500013e0, commHash c30008af1419738a, rank 0 nranks 2 - BEGIN
+worker-1-4:10359:10502 [0] 12.410909 bootstrapInit:369 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] 12.468263 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<59441>
+worker-1-4:10359:10502 [0] 12.518330 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<51875>
+worker-1-4:10359:10502 [0] 12.543093 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<37435>
+worker-1-4:10359:10436 [0] 12.859188 bootstrapRoot:155 NCCL TRACE Received connect from rank 0 total 1/2
+worker-1-4:10360:10360 [1] 0.005136 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10360:10360 [1] 0.032147 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10360:10360 [1] 0.039778 findInterfaces:106 NCCL TRACE Found interface bond1:10.11.3.4<0>
+worker-1-4:10360:10360 [1] 0.045920 findInterfaces:106 NCCL TRACE Found interface docker0:172.17.0.1<0>
+worker-1-4:10360:10360 [1] 0.052631 findInterfaces:106 NCCL TRACE Found interface lo:::1<0>
+worker-1-4:10360:10360 [1] 0.098279 findInterfaces:106 NCCL TRACE Found interface bond0:fe80::ba3f:d2ff:fe4c:20cc%bond0<0>
+worker-1-4:10360:10360 [1] 0.110581 findInterfaces:106 NCCL TRACE Found interface bond1:fe80::ba3f:d2ff:fe4c:20cd%bond1<0>
+worker-1-4:10360:10360 [1] 0.121854 findInterfaces:106 NCCL TRACE Found interface docker0:fe80::42:97ff:fe63:e4fd%docker0<0>
+worker-1-4:10360:10360 [1] 0.132999 findInterfaces:106 NCCL TRACE Found interface veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0>
+worker-1-4:10360:10360 [1] 0.144109 findInterfaces:106 NCCL TRACE Found interface vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10360:10360 [1] 0.496745 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10360:10360 [1] 0.506430 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10360:10360 [1] NCCL INFO Bootstrap : Using bond0:10.11.1.4<0>
+worker-1-4:10360:10360 [1] NCCL INFO NET/Plugin : No plugin found (libnccl-net.so), using internal implementation
+worker-1-4:10360:10360 [1] NCCL INFO Failed to open libibverbs.so[.1]
+worker-1-4:10360:10360 [1] 1.139838 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10360:10360 [1] 1.149623 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10360:10360 [1] 1.153500 findInterfaces:106 NCCL TRACE Found interface bond1:10.11.3.4<0>
+worker-1-4:10360:10360 [1] 1.157392 findInterfaces:106 NCCL TRACE Found interface docker0:172.17.0.1<0>
+worker-1-4:10360:10360 [1] 1.161490 findInterfaces:106 NCCL TRACE Found interface lo:::1<0>
+worker-1-4:10360:10360 [1] 1.172465 findInterfaces:106 NCCL TRACE Found interface bond0:fe80::ba3f:d2ff:fe4c:20cc%bond0<0>
+worker-1-4:10360:10360 [1] 1.179796 findInterfaces:106 NCCL TRACE Found interface bond1:fe80::ba3f:d2ff:fe4c:20cd%bond1<0>
+worker-1-4:10360:10360 [1] 1.187177 findInterfaces:106 NCCL TRACE Found interface docker0:fe80::42:97ff:fe63:e4fd%docker0<0>
+worker-1-4:10360:10360 [1] 1.202145 findInterfaces:106 NCCL TRACE Found interface veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0>
+worker-1-4:10360:10360 [1] 1.209929 findInterfaces:106 NCCL TRACE Found interface vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10360:10360 [1] 1.444234 findInterfaces:106 NCCL TRACE Found interface lo:127.0.0.1<0>
+worker-1-4:10360:10360 [1] 1.450411 findInterfaces:106 NCCL TRACE Found interface bond0:10.11.1.4<0>
+worker-1-4:10360:10360 [1] 1.454520 findInterfaces:106 NCCL TRACE Found interface bond1:10.11.3.4<0>
+worker-1-4:10360:10360 [1] 1.458647 findInterfaces:106 NCCL TRACE Found interface docker0:172.17.0.1<0>
+worker-1-4:10360:10360 [1] 1.462441 findInterfaces:106 NCCL TRACE Found interface lo:::1<0>
+worker-1-4:10360:10360 [1] 1.471507 findInterfaces:106 NCCL TRACE Found interface bond0:fe80::ba3f:d2ff:fe4c:20cc%bond0<0>
+worker-1-4:10360:10360 [1] 1.478931 findInterfaces:106 NCCL TRACE Found interface bond1:fe80::ba3f:d2ff:fe4c:20cd%bond1<0>
+worker-1-4:10360:10360 [1] 1.486153 findInterfaces:106 NCCL TRACE Found interface docker0:fe80::42:97ff:fe63:e4fd%docker0<0>
+worker-1-4:10360:10360 [1] 1.493422 findInterfaces:106 NCCL TRACE Found interface veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0>
+worker-1-4:10360:10360 [1] 1.500804 findInterfaces:106 NCCL TRACE Found interface vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10360:10360 [1] NCCL INFO NET/Socket : Using [0]bond0:10.11.1.4<0> [1]bond1:10.11.3.4<0> [2]veth6b4bf03:fe80::94e6:eeff:fedb:3765%veth6b4bf03<0> [3]vethc665b57:fe80::2c3c:e6ff:fe6c:bd9d%vethc665b57<0>
+worker-1-4:10360:10360 [1] NCCL INFO Using network Socket
+worker-1-4:10360:10569 [1] 3.842105 commAlloc:304 NCCL TRACE comm 0x7fe39c001410 rank 1 nranks 2 cudaDev 1 busId 1a000
+worker-1-4:10360:10569 [1] NCCL INFO init.cc:317 Cuda Host Alloc Size 4 pointer 0x4000000000
+worker-1-4:10360:10569 [1] NCCL INFO init.cc:321 Cuda Alloc Size 64 pointer 0x8021082000
+worker-1-4:10360:10569 [1] 5.835457 initTransportsRank:589 NCCL TRACE comm 0x7fe39c001410, commHash c30008af1419738a, rank 1 nranks 2 - BEGIN
+worker-1-4:10360:10569 [1] 5.869241 bootstrapInit:369 NCCL TRACE rank 1 nranks 2
+worker-1-4:10360:10569 [1] 5.938043 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<36513>
+worker-1-4:10360:10569 [1] 5.966714 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<57751>
+worker-1-4:10360:10569 [1] 5.987458 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<37435>
+worker-1-4:10359:10436 [0] 40.432733 bootstrapRoot:155 NCCL TRACE Received connect from rank 1 total 2/2
+worker-1-4:10359:10436 [0] 40.456799 bootstrapRoot:157 NCCL TRACE COLLECTED ALL 2 HANDLES
+worker-1-4:10359:10436 [0] 40.512349 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<51875>
+worker-1-4:10359:10436 [0] 40.700441 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<57751>
+worker-1-4:10359:10502 [0] 40.761909 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<36513>
+worker-1-4:10359:10436 [0] 40.814834 bootstrapRoot:170 NCCL TRACE SENT OUT ALL 2 HANDLES
+worker-1-4:10359:10436 [0] 40.837361 bootstrapRoot:181 NCCL TRACE DONE
+worker-1-4:10360:10569 [1] 6.700563 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<59441>
+worker-1-4:10360:10569 [1] 6.785623 bootstrapAllGather:445 NCCL TRACE rank 1 nranks 2 size 28
+worker-1-4:10359:10502 [0] 40.967075 bootstrapAllGather:445 NCCL TRACE rank 0 nranks 2 size 28
+worker-1-4:10360:10569 [1] 6.844204 bootstrapAllGather:463 NCCL TRACE rank 1 nranks 2 size 28 - DONE
+worker-1-4:10359:10502 [0] 41.034533 bootstrapAllGather:463 NCCL TRACE rank 0 nranks 2 size 28 - DONE
+worker-1-4:10360:10569 [1] 6.872029 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<55615>
+worker-1-4:10359:10502 [0] 41.063060 createListenSocket:421 NCCL TRACE Listening on socket 10.11.1.4<56349>
+worker-1-4:10360:10569 [1] 6.935177 bootstrapAllGather:445 NCCL TRACE rank 1 nranks 2 size 28
+worker-1-4:10359:10502 [0] 41.139167 bootstrapAllGather:445 NCCL TRACE rank 0 nranks 2 size 28
+worker-1-4:10359:10502 [0] 41.229194 bootstrapAllGather:463 NCCL TRACE rank 0 nranks 2 size 28 - DONE
+worker-1-4:10359:10502 [0] 41.243181 bootstrapInit:434 NCCL TRACE rank 0 nranks 2 - DONE
+worker-1-4:10360:10569 [1] 7.098741 bootstrapAllGather:463 NCCL TRACE rank 1 nranks 2 size 28 - DONE
+worker-1-4:10360:10569 [1] 7.145650 bootstrapInit:434 NCCL TRACE rank 1 nranks 2 - DONE
+worker-1-4:10359:10502 [0] 41.326742 getHostHash:121 NCCL TRACE unique hostname 'worker-1-4a97d1cb8-d7e0-4b26-94c2-2f9ea1105875'
+worker-1-4:10359:10502 [0] 41.376379 getPidHash:143 NCCL TRACE unique PID '10359pid:[4026541427]'
+worker-1-4:10360:10569 [1] 7.241801 getHostHash:121 NCCL TRACE unique hostname 'worker-1-4a97d1cb8-d7e0-4b26-94c2-2f9ea1105875'
+worker-1-4:10360:10569 [1] 7.285583 getPidHash:143 NCCL TRACE unique PID '10360pid:[4026541427]'
+worker-1-4:10359:10502 [0] 41.479935 bootstrapAllGather:445 NCCL TRACE rank 0 nranks 2 size 64
+worker-1-4:10360:10569 [1] 7.386540 bootstrapAllGather:445 NCCL TRACE rank 1 nranks 2 size 64
+worker-1-4:10359:10502 [0] 41.649848 bootstrapAllGather:463 NCCL TRACE rank 0 nranks 2 size 64 - DONE
+worker-1-4:10360:10569 [1] 7.470445 bootstrapAllGather:463 NCCL TRACE rank 1 nranks 2 size 64 - DONE
+worker-1-4:10359:10502 [0] 41.664719 initTransportsRank:655 NCCL TRACE hostHash[0] 496a69f35abcc035 intraNodeRank 0 intraNodeRanks 2 intraNodeRank0 0
+worker-1-4:10360:10569 [1] 7.487050 initTransportsRank:655 NCCL TRACE hostHash[1] 496a69f35abcc035 intraNodeRank 1 intraNodeRanks 2 intraNodeRank0 0
+worker-1-4:10359:10502 [0] 41.679818 initTransportsRank:659 NCCL TRACE pidHash[0] 7f0eaae610d814c5 intraProcRank 0 intraProcRanks 1 intraProcRank0 0
+worker-1-4:10360:10569 [1] 7.501474 initTransportsRank:659 NCCL TRACE pidHash[1] b365170595ee71db intraProcRank 0 intraProcRanks 1 intraProcRank0 1
+worker-1-4:10359:10502 [0] 41.890201 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/class -> class=0x030200
+worker-1-4:10360:10569 [1] 7.714613 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/class -> class=0x030200
+worker-1-4:10359:10502 [0] 41.928686 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/vendor -> vendor=0x1ed5
+worker-1-4:10360:10569 [1] 7.751991 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/vendor -> vendor=0x1ed5
+worker-1-4:10359:10502 [0] 41.960360 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/device -> device=0x0222
+worker-1-4:10360:10569 [1] 7.783128 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/device -> device=0x0222
+worker-1-4:10359:10502 [0] 41.996110 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/subsystem_vendor -> subsystem_vendor=0x1ed5
+worker-1-4:10360:10569 [1] 7.816360 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/subsystem_vendor -> subsystem_vendor=0x1ed5
+worker-1-4:10359:10502 [0] 42.033361 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/subsystem_device -> subsystem_device=0x0222
+worker-1-4:10360:10569 [1] 7.855748 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:00.0/0000:19:00.0/subsystem_device -> subsystem_device=0x0222
+worker-1-4:10359:10502 [0] 42.359475 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/class -> class=0x060400
+worker-1-4:10360:10569 [1] 8.190642 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/class -> class=0x060400
+worker-1-4:10359:10502 [0] 42.390248 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/vendor -> vendor=0x1000
+worker-1-4:10360:10569 [1] 8.241051 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/vendor -> vendor=0x1000
+worker-1-4:10359:10502 [0] 42.425801 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/device -> device=0xc012
+worker-1-4:10360:10569 [1] 8.270475 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/device -> device=0xc012
+worker-1-4:10359:10502 [0] 42.458000 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/subsystem_vendor -> subsystem_vendor=0x17aa
+worker-1-4:10360:10569 [1] 8.298204 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/subsystem_vendor -> subsystem_vendor=0x17aa
+worker-1-4:10359:10502 [0] 42.488628 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/subsystem_device -> subsystem_device=0x7819
+worker-1-4:10360:10569 [1] 8.326516 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/subsystem_device -> subsystem_device=0x7819
+worker-1-4:10360:10569 [1] 8.474022 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/system/node/node0/cpumap -> affinity=0000,000fffff,ff000000,0fffffff
+worker-1-4:10359:10502 [0] 42.655780 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/system/node/node0/cpumap -> affinity=0000,000fffff,ff000000,0fffffff
+
+worker-1-4:10360:10569 [1] misc/nvmlwrap.cc:60 NCCL WARN Failed to open libnvidia-ml.so.1
+
+worker-1-4:10359:10502 [0] misc/nvmlwrap.cc:60 NCCL WARN Failed to open libnvidia-ml.so.1
+worker-1-4:10360:10569 [1] 8.792347 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/class -> class=0x030200
+worker-1-4:10359:10502 [0] 42.998006 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/class -> class=0x030200
+worker-1-4:10360:10569 [1] 8.824065 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/vendor -> vendor=0x1ed5
+worker-1-4:10359:10502 [0] 43.030893 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/vendor -> vendor=0x1ed5
+worker-1-4:10360:10569 [1] 8.854402 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/device -> device=0x0222
+worker-1-4:10359:10502 [0] 43.061093 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/device -> device=0x0222
+worker-1-4:10360:10569 [1] 8.888016 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/subsystem_vendor -> subsystem_vendor=0x1ed5
+worker-1-4:10359:10502 [0] 43.094587 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/subsystem_vendor -> subsystem_vendor=0x1ed5
+worker-1-4:10360:10569 [1] 8.917524 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/subsystem_device -> subsystem_device=0x0222
+worker-1-4:10359:10502 [0] 43.126170 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/0000:18:01.0/0000:1a:00.0/subsystem_device -> subsystem_device=0x0222
+worker-1-4:10360:10569 [1] 9.168291 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/class -> class=0x060400
+worker-1-4:10359:10502 [0] 43.393235 ncclTopoSetAttrFromSys:412 NCCL TRACE Read from sys /sys/devices/pci0000:16/0000:16:02.0/0000:17:00.0/class -> class=0x060400
+worker-1-4:10360:10569 [1] NCCL INFO KV Convert to int : could not find value of 'Unknown speed' in dictionary, falling back to 320
+worker-1-4:10360:10569 [1] NCCL INFO KV Convert to int : could not find value of 'Unknown speed' in dictionary, falling back to 320
+worker-1-4:10359:10502 [0] NCCL INFO KV Convert to int : could not find value of 'Unknown speed' in dictionary, falling back to 320
+worker-1-4:10360:10569 [1] NCCL INFO Attribute coll of node net not found
+worker-1-4:10359:10502 [0] NCCL INFO KV Convert to int : could not find value of 'Unknown speed' in dictionary, falling back to 320
+worker-1-4:10360:10569 [1] NCCL INFO Attribute coll of node net not found
+worker-1-4:10360:10569 [1] NCCL INFO Attribute coll of node net not found
+worker-1-4:10360:10569 [1] NCCL INFO Attribute coll of node net not found
+worker-1-4:10359:10502 [0] NCCL INFO Attribute coll of node net not found
+worker-1-4:10359:10502 [0] NCCL INFO Attribute coll of node net not found
+worker-1-4:10359:10502 [0] NCCL INFO Attribute coll of node net not found
+worker-1-4:10359:10502 [0] NCCL INFO Attribute coll of node net not found
+worker-1-4:10360:10569 [1] 9.891456 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 9.905347 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 44.103880 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10359:10502 [0] 44.118749 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 9.952529 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 9.964265 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 44.168937 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 44.182961 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10360:10569 [1] 10.667913 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 10.685950 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 44.870491 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 44.884818 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 10.722577 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 10.733632 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 44.922713 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 44.935057 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10360:10569 [1] NCCL INFO === System : maxWidth 64.0 totalWidth 64.0 ===
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10360:10569 [1] NCCL INFO CPU/0 (1/1/3)
+worker-1-4:10359:10502 [0] NCCL INFO === System : maxWidth 64.0 totalWidth 64.0 ===
+worker-1-4:10360:10569 [1] NCCL INFO + PCI[5000.0] - NIC/0
+worker-1-4:10359:10502 [0] NCCL INFO CPU/0 (1/1/3)
+worker-1-4:10360:10569 [1] NCCL INFO + PCI[32.0] - PCI/17000 (1000c01217aa7819)
+worker-1-4:10359:10502 [0] NCCL INFO + PCI[5000.0] - NIC/0
+worker-1-4:10360:10569 [1] NCCL INFO               + PCI[64.0] - GPU/19000 (0)
+worker-1-4:10359:10502 [0] NCCL INFO + PCI[32.0] - PCI/17000 (1000c01217aa7819)
+worker-1-4:10360:10569 [1] NCCL INFO               + PCI[64.0] - GPU/1A000 (1)
+worker-1-4:10359:10502 [0] NCCL INFO               + PCI[64.0] - GPU/19000 (0)
+worker-1-4:10360:10569 [1] NCCL INFO ==========================================
+worker-1-4:10359:10502 [0] NCCL INFO               + PCI[64.0] - GPU/1A000 (1)
+worker-1-4:10360:10569 [1] NCCL INFO Paths from GPU/19000 :
+worker-1-4:10359:10502 [0] NCCL INFO ==========================================
+worker-1-4:10360:10569 [1] NCCL INFO  (5000.000000)
+worker-1-4:10359:10502 [0] NCCL INFO Paths from GPU/19000 :
+worker-1-4:10360:10569 [1] NCCL INFO --PCI->PCI/17000--PCI->GPU/1A000 (64.000000)
+worker-1-4:10359:10502 [0] NCCL INFO  (5000.000000)
+worker-1-4:10360:10569 [1] NCCL INFO --PCI->PCI/17000--PCI->CPU/0 (32.000000)
+worker-1-4:10359:10502 [0] NCCL INFO --PCI->PCI/17000--PCI->GPU/1A000 (64.000000)
+worker-1-4:10360:10569 [1] NCCL INFO Paths from GPU/1A000 :
+worker-1-4:10359:10502 [0] NCCL INFO --PCI->PCI/17000--PCI->CPU/0 (32.000000)
+worker-1-4:10360:10569 [1] NCCL INFO --PCI->PCI/17000--PCI->GPU/19000 (64.000000)
+worker-1-4:10359:10502 [0] NCCL INFO Paths from GPU/1A000 :
+worker-1-4:10360:10569 [1] NCCL INFO  (5000.000000)
+worker-1-4:10359:10502 [0] NCCL INFO --PCI->PCI/17000--PCI->GPU/19000 (64.000000)
+worker-1-4:10360:10569 [1] NCCL INFO --PCI->PCI/17000--PCI->CPU/0 (32.000000)
+worker-1-4:10359:10502 [0] NCCL INFO  (5000.000000)
+worker-1-4:10359:10502 [0] NCCL INFO --PCI->PCI/17000--PCI->CPU/0 (32.000000)
+worker-1-4:10359:10502 [0] NCCL INFO Pattern 4, crossNic 0, nChannels 7, speed 9.000000/9.000000, type PIX/PIX, sameChannels 1
+worker-1-4:10359:10502 [0] NCCL INFO  0 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  1 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  2 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  3 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  4 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  5 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  6 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO Pattern 1, crossNic 0, nChannels 7, speed 12.000000/12.000000, type PIX/PIX, sameChannels 0
+worker-1-4:10359:10502 [0] NCCL INFO  0 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  1 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  2 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  3 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  4 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  5 : GPU/1 GPU/0
+worker-1-4:10359:10502 [0] NCCL INFO  6 : GPU/1 GPU/0
+worker-1-4:10359:10502 [0] NCCL INFO Pattern 3, crossNic 0, nChannels 7, speed 12.000000/12.000000, type PIX/PIX, sameChannels 0
+worker-1-4:10359:10502 [0] NCCL INFO  0 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  1 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  2 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  3 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  4 : GPU/0 GPU/1
+worker-1-4:10359:10502 [0] NCCL INFO  5 : GPU/1 GPU/0
+worker-1-4:10359:10502 [0] NCCL INFO  6 : GPU/1 GPU/0
+worker-1-4:10359:10502 [0] 97.589977 bootstrapAllGather:445 NCCL TRACE rank 0 nranks 2 size 984
+worker-1-4:10360:10569 [1] NCCL INFO Pattern 4, crossNic 0, nChannels 7, speed 9.000000/9.000000, type PIX/PIX, sameChannels 1
+worker-1-4:10360:10569 [1] NCCL INFO  0 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  1 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  2 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  3 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  4 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  5 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  6 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO Pattern 1, crossNic 0, nChannels 7, speed 12.000000/12.000000, type PIX/PIX, sameChannels 0
+worker-1-4:10360:10569 [1] NCCL INFO  0 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  1 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  2 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  3 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  4 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  5 : GPU/1 GPU/0
+worker-1-4:10360:10569 [1] NCCL INFO  6 : GPU/1 GPU/0
+worker-1-4:10360:10569 [1] NCCL INFO Pattern 3, crossNic 0, nChannels 7, speed 12.000000/12.000000, type PIX/PIX, sameChannels 0
+worker-1-4:10360:10569 [1] NCCL INFO  0 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  1 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  2 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  3 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  4 : GPU/0 GPU/1
+worker-1-4:10360:10569 [1] NCCL INFO  5 : GPU/1 GPU/0
+worker-1-4:10360:10569 [1] NCCL INFO  6 : GPU/1 GPU/0
+worker-1-4:10360:10569 [1] 63.637730 bootstrapAllGather:445 NCCL TRACE rank 1 nranks 2 size 984
+worker-1-4:10360:10569 [1] 63.677051 bootstrapAllGather:463 NCCL TRACE rank 1 nranks 2 size 984 - DONE
+worker-1-4:10360:10569 [1] 63.685223 connectRings:101 NCCL TRACE Ring 0 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.690289 connectRings:103 NCCL TRACE Ring 7 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.694848 connectRings:101 NCCL TRACE Ring 1 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.699256 connectRings:103 NCCL TRACE Ring 8 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.703691 connectRings:101 NCCL TRACE Ring 2 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.708116 connectRings:103 NCCL TRACE Ring 9 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.712492 connectRings:101 NCCL TRACE Ring 3 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.716822 connectRings:103 NCCL TRACE Ring 10 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.721250 connectRings:101 NCCL TRACE Ring 4 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.725653 connectRings:103 NCCL TRACE Ring 11 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.729987 connectRings:101 NCCL TRACE Ring 5 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.734331 connectRings:103 NCCL TRACE Ring 12 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.738780 connectRings:101 NCCL TRACE Ring 6 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] 63.743177 connectRings:103 NCCL TRACE Ring 13 : 0 -> 1 -> 0
+worker-1-4:10360:10569 [1] NCCL INFO Tree 0 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.923690 bootstrapAllGather:463 NCCL TRACE rank 0 nranks 2 size 984 - DONE
+worker-1-4:10360:10569 [1] NCCL INFO Tree 7 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 1 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 8 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.948062 connectRings:101 NCCL TRACE Ring 0 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 2 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.955401 connectRings:103 NCCL TRACE Ring 7 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 9 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.961721 connectRings:101 NCCL TRACE Ring 1 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 3 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.966950 connectRings:103 NCCL TRACE Ring 8 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 10 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.972331 connectRings:101 NCCL TRACE Ring 2 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 4 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.977621 connectRings:103 NCCL TRACE Ring 9 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 11 : 0 -> 1 -> -1/-1/-1
+worker-1-4:10359:10502 [0] 97.983036 connectRings:101 NCCL TRACE Ring 3 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 5 : -1 -> 1 -> 0/-1/-1
+worker-1-4:10359:10502 [0] 97.988226 connectRings:103 NCCL TRACE Ring 10 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 12 : -1 -> 1 -> 0/-1/-1
+worker-1-4:10359:10502 [0] 97.993617 connectRings:101 NCCL TRACE Ring 4 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 6 : -1 -> 1 -> 0/-1/-1
+worker-1-4:10359:10502 [0] 97.998951 connectRings:103 NCCL TRACE Ring 11 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Tree 13 : -1 -> 1 -> 0/-1/-1
+worker-1-4:10359:10502 [0] 98.014744 connectRings:101 NCCL TRACE Ring 5 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] 98.020299 connectRings:103 NCCL TRACE Ring 12 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] 63.841127 initTransportsRank:899 NCCL TRACE rank 1 nranks 2 - BUILT 14 TREES/RINGS
+worker-1-4:10359:10502 [0] 98.025059 connectRings:101 NCCL TRACE Ring 6 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 00 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] 98.030772 connectRings:103 NCCL TRACE Ring 13 : 1 -> 0 -> 1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 01 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 0 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 02 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 7 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 03 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 1 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 04 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 8 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 05 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 2 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 06 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 9 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 07 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 3 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 08 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 10 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 09 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 4 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 10 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 11 : -1 -> 0 -> 1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 11 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 5 : 1 -> 0 -> -1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 12 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 12 : 1 -> 0 -> -1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Ring 13 : 0 -> 1 -> 0
+worker-1-4:10359:10502 [0] NCCL INFO Tree 6 : 1 -> 0 -> -1/-1/-1
+worker-1-4:10360:10569 [1] NCCL INFO Trees [0] -1/-1/-1->1->0 [1] -1/-1/-1->1->0 [2] -1/-1/-1->1->0 [3] -1/-1/-1->1->0 [4] -1/-1/-1->1->0 [5] 0/-1/-1->1->-1 [6] 0/-1/-1->1->-1 [7] -1/-1/-1->1->0 [8] -1/-1/-1->1->0 [9] -1/-1/-1->1->0 [10] -1/-1/-1->1->0 [11] -1/-1/-1->1->0 [12] 0/-1/-1->1->-1 [13] 0/-1/-1->1->-1
+worker-1-4:10359:10502 [0] NCCL INFO Tree 13 : 1 -> 0 -> -1/-1/-1
+worker-1-4:10360:10569 [1] 63.925484 ncclTopoGetCpuAffinity:870 NCCL TRACE Current affinity for GPU 1 is ffff,ffffffff,ffffffff,ffffffff
+worker-1-4:10359:10502 [0] NCCL INFO Channel 00/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 01/14 :    0   1
+worker-1-4:10360:10569 [1] 63.933396 ncclTopoGetCpuAffinity:882 NCCL TRACE CPU GPU affinity for GPU 1 is 0fffff,ff000000,0fffffff
+worker-1-4:10359:10502 [0] NCCL INFO Channel 02/14 :    0   1
+worker-1-4:10360:10569 [1] NCCL INFO Setting affinity for GPU 1 to 0fffff,ff000000,0fffffff
+worker-1-4:10359:10502 [0] NCCL INFO Channel 03/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 04/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 05/14 :    0   1
+worker-1-4:10360:10569 [1] 63.952797 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO Channel 06/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 07/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 08/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 09/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 10/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 11/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 12/14 :    0   1
+worker-1-4:10359:10502 [0] NCCL INFO Channel 13/14 :    0   1
+worker-1-4:10359:10502 [0] 98.172564 initTransportsRank:899 NCCL TRACE rank 0 nranks 2 - BUILT 14 TREES/RINGS
+worker-1-4:10359:10502 [0] NCCL INFO Ring 00 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 01 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 02 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 03 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 04 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 05 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 06 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 07 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 08 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 09 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 10 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 11 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 12 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Ring 13 : 1 -> 0 -> 1
+worker-1-4:10359:10502 [0] NCCL INFO Trees [0] 1/-1/-1->0->-1 [1] 1/-1/-1->0->-1 [2] 1/-1/-1->0->-1 [3] 1/-1/-1->0->-1 [4] 1/-1/-1->0->-1 [5] -1/-1/-1->0->1 [6] -1/-1/-1->0->1 [7] 1/-1/-1->0->-1 [8] 1/-1/-1->0->-1 [9] 1/-1/-1->0->-1 [10] 1/-1/-1->0->-1 [11] 1/-1/-1->0->-1 [12] -1/-1/-1->0->1 [13] -1/-1/-1->0->1
+worker-1-4:10359:10502 [0] 98.250671 ncclTopoGetCpuAffinity:870 NCCL TRACE Current affinity for GPU 0 is ffff,ffffffff,ffffffff,ffffffff
+worker-1-4:10359:10502 [0] 98.258192 ncclTopoGetCpuAffinity:882 NCCL TRACE CPU GPU affinity for GPU 0 is 0fffff,ff000000,0fffffff
+worker-1-4:10359:10502 [0] NCCL INFO Setting affinity for GPU 0 to 0fffff,ff000000,0fffffff
+worker-1-4:10359:10502 [0] 98.276042 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021082080
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021082080
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021082100
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021082100
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000001000
+worker-1-4:10359:10502 [0] 101.942023 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 101.949059 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000001000
+worker-1-4:10360:10569 [1] 67.804617 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 67.812351 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021082800
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021082800
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021082880
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021082880
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000101000
+worker-1-4:10359:10502 [0] 105.136538 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 105.143021 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000101000
+worker-1-4:10360:10569 [1] 71.088000 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 71.094655 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021082f80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021082f80
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021083000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021083000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000201000
+worker-1-4:10359:10502 [0] 108.172040 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 108.178337 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000201000
+worker-1-4:10360:10569 [1] 74.121972 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 74.128062 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021083700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021083700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021083780
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021083780
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000301000
+worker-1-4:10359:10502 [0] 110.957530 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 110.963911 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021083e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000301000
+worker-1-4:10360:10569 [1] 77.115096 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 77.121472 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021084000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021083e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021084000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000401000
+worker-1-4:10359:10502 [0] 113.901829 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 113.908017 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000401000
+worker-1-4:10360:10569 [1] 79.869393 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 79.875543 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021083f00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021083f00
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021084700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021084700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000501000
+worker-1-4:10359:10502 [0] 116.592387 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 116.598810 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021084e00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000501000
+worker-1-4:10360:10569 [1] 82.613073 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 82.619061 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021085000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021084e00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021085000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000601000
+worker-1-4:10359:10502 [0] 119.201229 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 119.207374 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021084e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000601000
+worker-1-4:10360:10569 [1] 85.215432 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 85.221393 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021085700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021084e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021085700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000701000
+worker-1-4:10359:10502 [0] 122.023169 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 122.029132 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000701000
+worker-1-4:10360:10569 [1] 87.957860 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 87.963709 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021084f00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021084f00
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021086000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021086000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000801000
+worker-1-4:10359:10502 [0] 124.500458 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 124.506584 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021085e00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000801000
+worker-1-4:10360:10569 [1] 90.534745 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 90.540717 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021086700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021085e00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021086700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000901000
+worker-1-4:10359:10502 [0] 127.132715 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 127.138758 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021085e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000901000
+worker-1-4:10360:10569 [1] 93.203116 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 93.208797 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021087000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021085e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021087000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000a01000
+worker-1-4:10359:10502 [0] 129.728717 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 129.734760 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021085f00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000a01000
+worker-1-4:10360:10569 [1] 95.722160 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 95.728014 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021087700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021085f00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021087700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000b01000
+worker-1-4:10359:10502 [0] 132.152805 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 132.158809 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021087e00
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021088000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000b01000
+worker-1-4:10360:10569 [1] 98.370046 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 98.376011 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021087e00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021088000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000c01000
+worker-1-4:10359:10502 [0] 134.881725 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] 134.887807 setupChannel:438 NCCL TRACE rank 0 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021087e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000c01000
+worker-1-4:10360:10569 [1] 100.983893 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] 100.990220 setupChannel:438 NCCL TRACE rank 1 nranks 2
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021088700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021087e80
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x8021088700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000d01000
+worker-1-4:10359:10502 [0] 137.663590 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 137.706244 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 137.711940 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 137.718523 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-0-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000d01000
+worker-1-4:10360:10569 [1] 103.625342 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 1
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 103.667377 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 103.673057 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 103.679521 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-0-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10359:10502 [0] 173.195932 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 139.018022 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 173.203269 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 139.025537 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 173.210780 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-1-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] 139.032725 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-1-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 166.961155 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 166.967763 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 166.974297 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-2-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 201.389615 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 201.396172 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 201.402728 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-2-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 191.560088 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 191.566542 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 191.572880 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-3-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 226.215308 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 226.221677 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 226.228245 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-3-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 222.038492 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 222.044885 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 222.051064 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-4-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 256.356882 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 256.363222 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 256.369752 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-4-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 248.726858 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 248.733543 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 248.739938 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-5-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 283.222700 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 283.229167 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 283.235681 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-5-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 278.152570 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 278.159069 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 278.165251 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-6-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 312.479140 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 312.522932 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 312.528946 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-6-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 304.509046 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 304.515383 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 304.521493 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-7-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 339.092720 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 339.100276 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 339.107446 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-7-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 333.839513 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 333.845635 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 333.851674 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-8-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 368.291560 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 368.298368 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 368.305004 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-8-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 358.789414 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 358.796301 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 358.802411 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-9-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 393.451082 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 393.457626 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 393.464340 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-9-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 385.826706 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 385.833037 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 385.839287 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-10-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 420.569333 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 420.575698 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 420.582503 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-10-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 429.787740 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 429.794615 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 429.809545 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-11-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 465.739549 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 465.745986 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 465.752709 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-11-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 478.439807 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 478.445968 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 478.452306 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-12-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 513.212228 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 513.218817 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 513.225341 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-12-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 525.757079 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 525.763575 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 525.770255 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-13-0-1 shmSize 10358784
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 560.613879 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 560.620471 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 560.626841 shmRecvSetup:124 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-13-1-0 shmSize 10358784
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 571.534345 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 571.540551 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 571.547142 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-0-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 00 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 572.219986 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 572.225125 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 572.230603 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-1-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 606.442164 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 606.449110 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 606.456451 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-0-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 01 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 572.970268 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 572.975610 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 572.980987 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-2-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 00 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 607.250766 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 607.256015 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 607.261646 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-1-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 02 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 573.565492 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 573.570657 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 573.575914 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-3-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 01 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 607.852285 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 607.857558 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 607.862878 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-2-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 03 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 574.323607 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 574.328735 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 574.333954 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-4-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 02 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 608.532820 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 608.538160 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 608.543441 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-3-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 04 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 574.951904 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 574.956842 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 574.962165 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-5-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 03 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 609.239701 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 609.244770 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 609.250081 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-4-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 05 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 575.930289 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 575.935569 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 575.941205 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-6-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 04 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 610.284940 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 610.290079 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 610.295526 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-5-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 06 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 576.773262 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 576.778202 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 576.783380 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-7-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 05 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 611.133562 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 611.139163 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 611.145031 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-6-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 07 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 577.511212 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 577.516240 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 577.522045 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-8-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 06 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 611.800115 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 611.805322 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 611.810582 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-7-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 08 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 578.377026 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 578.382485 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 578.388169 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-9-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 07 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 612.903504 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 612.908678 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 612.914112 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-8-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 09 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 579.359909 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 579.364824 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 579.370170 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-10-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 08 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 613.712054 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 613.717587 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 613.723361 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-9-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 10 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 580.211531 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 580.216849 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 580.222698 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-11-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 09 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 614.485513 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 614.490711 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 614.496152 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-10-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 11 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 581.033753 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 581.038785 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 581.044287 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-12-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 10 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 615.395581 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 615.401097 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 615.407127 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-11-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 12 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] NCCL INFO Could not enable P2P between dev 1(=1a000) and dev 0(=19000)
+worker-1-4:10360:10569 [1] 581.684978 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10360:10569 [1] 581.690033 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10360:10569 [1] 581.699435 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-13-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 11 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 616.002635 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 616.007827 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 616.013051 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-12-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] NCCL INFO Channel 12 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] NCCL INFO Could not enable P2P between dev 0(=19000) and dev 1(=1a000)
+worker-1-4:10359:10502 [0] 616.642448 shmCanConnect:50 NCCL TRACE peer1 hostHash 496a69f35abcc035 peer2 hostHash 496a69f35abcc035
+worker-1-4:10359:10502 [0] 616.647526 shmCanConnect:56 NCCL TRACE peer1 shmDev 5a peer2 shmDev 5a
+worker-1-4:10359:10502 [0] 616.652954 shmSendSetup:88 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-13-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Channel 13 : 1[1a000] -> 0[19000] via direct shared memory
+worker-1-4:10360:10569 [1] 582.630151 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<59441>
+worker-1-4:10359:10502 [0] NCCL INFO Channel 13 : 0[19000] -> 1[1a000] via direct shared memory
+worker-1-4:10359:10502 [0] 617.269583 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<36513>
+worker-1-4:10360:10569 [1] 583.223958 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-0-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 617.428593 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-0-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 602.913855 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-1-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 637.105133 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-1-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 621.100160 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-2-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 655.288664 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-2-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 639.185256 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-3-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 673.374001 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-3-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 657.273255 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-4-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 691.459672 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-4-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 675.376694 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-5-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 709.564301 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-5-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 692.982385 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-6-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 727.170176 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-6-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 711.046878 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-7-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 745.233331 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-7-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 729.574225 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-8-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 763.760977 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-8-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 750.952551 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-9-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 785.137202 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-9-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 772.430947 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-10-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 806.966500 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-10-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 790.635074 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-11-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 825.187169 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-11-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 805.350356 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-12-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 840.243641 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-12-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 819.964279 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-7f0eaae610d814c5-13-1-0 shmSize 10358784
+worker-1-4:10359:10502 [0] 854.734666 shmSendConnect:147 NCCL TRACE Open shmName nccl-shm-recv-b365170595ee71db-13-0-1 shmSize 10358784
+worker-1-4:10360:10569 [1] 837.031663 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-0-0-1 shmSize 4104
+worker-1-4:10360:10569 [1] 837.440718 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-1-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 871.634635 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-0-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 837.853074 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-2-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 872.039629 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-1-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 838.259379 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-3-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 872.446923 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-2-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 838.700693 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-4-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 872.887673 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-3-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 839.129571 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-5-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 873.316455 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-4-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 839.535008 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-6-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 873.721866 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-5-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 839.980450 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-7-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 874.167458 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-6-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 840.403726 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-8-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 874.591228 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-7-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 840.817424 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-9-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 875.004364 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-8-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 841.245699 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-10-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 875.432601 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-9-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 841.690253 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-11-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 875.877327 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-10-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 842.125190 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-12-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 876.312653 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-11-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] 842.604299 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-7f0eaae610d814c5-13-0-1 shmSize 4104
+worker-1-4:10359:10502 [0] 876.790808 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-12-1-0 shmSize 4104
+worker-1-4:10359:10502 [0] 877.214675 shmRecvConnect:178 NCCL TRACE Open shmName nccl-shm-send-b365170595ee71db-13-1-0 shmSize 4104
+worker-1-4:10360:10569 [1] NCCL INFO Connected all rings
+worker-1-4:10360:10569 [1] 843.084153 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.090192 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.095151 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.099784 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.104187 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.108599 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.112907 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.117308 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.121616 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.125976 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.130252 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.134596 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.138880 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.143319 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.147526 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.151871 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.156257 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.160603 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.164920 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.169287 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.173567 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.177857 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.182092 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.186403 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.190725 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.194990 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] 843.199275 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] 843.203543 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] NCCL INFO Connected all trees
+worker-1-4:10360:10569 [1] 843.288662 initTransportsRank:1041 NCCL TRACE rank 1 nranks 2 - CONNECTED 14 RINGS AND TREES
+worker-1-4:10360:10569 [1] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/512
+worker-1-4:10359:10502 [0] NCCL INFO Connected all rings
+worker-1-4:10359:10502 [0] 877.662274 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.668616 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.673762 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021087f00
+worker-1-4:10359:10502 [0] 877.683694 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.688829 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.693337 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.697831 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.702358 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.706923 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.711500 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.715999 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.720592 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.724999 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.729593 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.733981 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.738502 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.742882 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.747365 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.751712 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.756222 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.760583 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.765118 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.769544 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.773978 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.778354 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.782810 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10359:10502 [0] 877.787266 ncclTransportP2pConnect:55 NCCL TRACE nsend 1 nrecv 3
+worker-1-4:10359:10502 [0] 877.791687 ncclTransportP2pConnect:55 NCCL TRACE nsend 3 nrecv 1
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x803255d000
+worker-1-4:10359:10502 [0] NCCL INFO Connected all trees
+worker-1-4:10359:10502 [0] 877.955438 initTransportsRank:1041 NCCL TRACE rank 0 nranks 2 - CONNECTED 14 RINGS AND TREES
+worker-1-4:10359:10502 [0] NCCL INFO Latency/AlgBw |    Tree/    LL |    Tree/ LL128 |    Tree/Simple |    Ring/    LL |    Ring/ LL128 |    Ring/Simple | CollNet/    LL | CollNet/ LL128 | CollNet/Simple |
+worker-1-4:10359:10502 [0] NCCL INFO  Max NThreads |            512 |            256 |            512 |            512 |            256 |            512 |            512 |            256 |            512 |
+worker-1-4:10359:10502 [0] NCCL INFO     Broadcast |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     4.6/  21.0 |    12.5/   0.0 |    14.1/  63.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+worker-1-4:10359:10502 [0] NCCL INFO        Reduce |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     4.6/  15.8 |    12.5/   0.0 |    14.1/  63.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+worker-1-4:10359:10502 [0] NCCL INFO     AllGather |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     4.6/  42.0 |    12.5/   0.0 |    14.1/ 126.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+worker-1-4:10359:10502 [0] NCCL INFO ReduceScatter |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |     4.6/  42.0 |    12.5/   0.0 |    14.1/ 126.0 |     0.0/   0.0 |     0.0/   0.0 |     0.0/   0.0 |
+worker-1-4:10359:10502 [0] NCCL INFO     AllReduce |     6.4/  10.2 |     8.2/   0.0 |    56.0/  38.6 |     5.6/  15.8 |    15.0/   0.0 |    19.8/  63.0 |    12.4/   0.0 |    14.2/   0.0 |    27.7/   0.0 |
+worker-1-4:10359:10502 [0] NCCL INFO threadThresholds 8/8/64 | 16/8/64 | 8/8/512
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021087f00
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x803255d000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000e01000
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021088e00
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x803255d700
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000e01000
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:21 Cuda Alloc Size 8 pointer 0x8021088e00
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:28 Cuda Alloc Size 1728 pointer 0x803255d700
+worker-1-4:10360:10569 [1] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000f01000
+worker-1-4:10360:10569 [1] NCCL INFO 14 coll channels, 16 p2p channels, 2 p2p channels per peer
+worker-1-4:10360:10569 [1] 848.966434 bootstrapBarrier:484 NCCL TRACE rank 1 nranks 2 tag 10d814c5 - ENTER
+worker-1-4:10360:10569 [1] 848.986330 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<59441>
+worker-1-4:10359:10502 [0] NCCL INFO channel.cc:38 Cuda Host Alloc Size 1048576 pointer 0x4000f01000
+worker-1-4:10359:10502 [0] NCCL INFO 14 coll channels, 16 p2p channels, 2 p2p channels per peer
+worker-1-4:10359:10502 [0] 883.734341 bootstrapBarrier:484 NCCL TRACE rank 0 nranks 2 tag 10d814c5 - ENTER
+worker-1-4:10359:10502 [0] 883.753202 connectAddress:463 NCCL TRACE Connecting to socket 10.11.1.4<36513>
+worker-1-4:10360:10569 [1] 849.697886 bootstrapBarrier:500 NCCL TRACE rank 1 nranks 2 tag 10d814c5 - DONE
+worker-1-4:10359:10502 [0] 883.896212 bootstrapBarrier:500 NCCL TRACE rank 0 nranks 2 tag 10d814c5 - DONE
+worker-1-4:10360:10569 [1] 849.733731 initTransportsRank:1098 NCCL TRACE rank 1 nranks 2 - DONE
+worker-1-4:10359:10502 [0] 883.930582 initTransportsRank:1098 NCCL TRACE rank 0 nranks 2 - DONE
+worker-1-4:10360:10569 [1] NCCL INFO init.cc:379 Cuda Alloc Size 16424 pointer 0x803255e000
+worker-1-4:10359:10502 [0] NCCL INFO init.cc:379 Cuda Alloc Size 16424 pointer 0x803255e000
+worker-1-4:10360:10569 [1] NCCL INFO comm 0x7fe39c001410 rank 1 nranks 2 cudaDev 1 busId 1a000 - Init COMPLETE
+worker-1-4:10360:10360 [1] NCCL INFO ncclEnqueueCheck isAsync:1
+worker-1-4:10360:10360 [1] NCCL INFO ReduceScatter: opCount 0 sendbuff 0x8020a50600 recvbuff 0x8020a50400 count 10 datatype 7 op 0 root 0 comm 0x7fe39c001410 [nranks=2] stream 0x20af8310
+worker-1-4:10360:10360 [1] 854.081369 getAlgoInfo:461 NCCL TRACE 80 Bytes -> Algo 1 proto 0 time 4.601905
+worker-1-4:10360:10360 [1] 854.089593 computeColl:723 NCCL TRACE opCount 0 slicesteps 1 spl 1 cpl 2 nbytes 80 -> protocol 0 nchannels 1 nthreads 128, nloops 1 nsteps 1 chunksize 524288 comm 0x7fe39c001410
+worker-1-4:10360:10360 [1] NCCL INFO params->gridDim.x: 1
+worker-1-4:10360:10360 [1] NCCL INFO comm->groupCudaStream: 1
+worker-1-4:10360:10360 [1] NCCL INFO comm->launchMode: 1
+worker-1-4:10360:10360 [1] NCCL INFO comm->userStream: 0x20af8310, comm->doneEvent: 0x67c8720
+1 worker-1-4:10359:10502 [0] NCCL INFO comm 0x7fad500013e0 rank 0 nranks 2 cudaDev 0 busId 19000 - Init COMPLETE
+worker-1-4:10359:10359 [0] NCCL INFO ncclEnqueueCheck isAsync:1
+worker-1-4:10359:10359 [0] NCCL INFO ReduceScatter: opCount 0 sendbuff 0x8020a50600 recvbuff 0x8020a50400 count 10 datatype 7 op 0 root 0 comm 0x7fad500013e0 [nranks=2] stream 0x20620020
+worker-1-4:10359:10359 [0] 891.135384 getAlgoInfo:461 NCCL TRACE 80 Bytes -> Algo 1 proto 0 time 4.601905
+worker-1-4:10359:10359 [0] 891.145005 computeColl:723 NCCL TRACE opCount 0 slicesteps 1 spl 1 cpl 2 nbytes 80 -> protocol 0 nchannels 1 nthreads 128, nloops 1 nsteps 1 chunksize 524288 comm 0x7fad500013e0
+worker-1-4:10359:10359 [0] NCCL INFO params->gridDim.x: 1
+worker-1-4:10359:10359 [0] NCCL INFO comm->groupCudaStream: 1
+worker-1-4:10359:10359 [0] NCCL INFO comm->launchMode: 1
+worker-1-4:10359:10359 [0] NCCL INFO comm->userStream: 0x20620020, comm->doneEvent: 0x634ba80
+worker-1-4:10359:10359 [0] NCCL INFO Launch mode Parallel
+0 tensor([ 4.,  6.,  8., 10., 12., 14., 16., 18., 20., 22.], device='musa:1')
+worker-1-4:10360:10360 [1] 881.877961 commDestroy:1231 NCCL TRACE Destroying comm 0x7fe39c001410 rank 1 abortFlag 1 fatalError 0
+worker-1-4:10360:10360 [1] NCCL INFO Created 1 queue info, destroyed 1
+tensor([ 4.,  6.,  8., 10., 12., 14., 16., 18., 20., 22.], device='musa:0')
+worker-1-4:10359:10359 [0] 929.532197 commDestroy:1231 NCCL TRACE Destroying comm 0x7fad500013e0 rank 0 abortFlag 1 fatalError 0
+worker-1-4:10359:10359 [0] NCCL INFO Created 1 queue info, destroyed 1
+worker-1-4:10360:10360 [1] 1118.514538 commDestroy:1246 NCCL TRACE Destroyed comm 0x7fe39c001410 rank -1
+worker-1-4:10359:10359 [0] 1224.055011 commDestroy:1246 NCCL TRACE Destroyed comm 0x7fad500013e0 rank -1

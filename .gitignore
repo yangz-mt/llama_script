@@ -1,0 +1,6 @@
+*/__pycache__/
+log/
+error_log/*
+exp_log/*
+
+p2pBandwidthLatencyTest

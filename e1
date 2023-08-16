@@ -1,0 +1,6 @@
+/opt/conda/envs/py38/lib/python3.8/site-packages/torch/amp/autocast_mode.py:204: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+Usage: colossalai run [OPTIONS] USER_SCRIPT [USER_ARGS]...
+Try 'colossalai run --help' for help.
+
+Error: Invalid value for '--nproc_per_node': 'rror_log/2023-07-25_21:05:32.txt' is not a valid integer.
